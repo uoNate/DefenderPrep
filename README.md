@@ -1,6 +1,8 @@
 # DefenderPrep
 
-**Mac_Defender.sh** is a script made to simplify the process of getting a Mac ready to enroll in Defender
+**Mac_Defender.sh** is a script made to simplify the process of getting a Mac ready to enroll in InTune.
+
+A video of the script in action is available [following this link](https://uottawa-my.sharepoint.com/personal/ndauray_uottawa_ca/_layouts/15/guestaccess.aspx?guestaccesstoken=IZ71qRdXpNpF795r4lID0mbCUM7erMkWNoXTHkWXQ9k%3D&docid=2_05b5bd128578c4448a3e2e8bb9db5e1ff&rev=1&e=x9O1bW) (only available to internal users)
 
 ### Computer Name:
 This script changes the computer name to either XXXX-SERIALNUM or whatever of your preference. Choice offered : Basic/Custom
