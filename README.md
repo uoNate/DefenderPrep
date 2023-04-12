@@ -34,3 +34,17 @@ The Computer object is left in your root, under Faculties/FACULTY_NAME/Computers
 
 This script only tackles Faculty AD OUs, a future version, if enough interest, would incorporate all the different AD Banner groups.
 _Cavieat: the computer name is created in lowercase in AD, haven't found a way to set it all uppercase, despite the Mac Name and binding name all being uppercase._
+
+
+# Troubleshooting and usage
+launch the script by dragging it onto the Terminal window, or on the Terminal icon (located /Applications/Utilities)
+or locate the script and run it ./Mac_Defender.sh
+
+if you get "unauthorized" message, the script has been blacklisted by the system (normal for unsigned processes), paste the following code into terminal, drag the script in the window and press return
+```
+xattr -d com.apple.quarantine
+```
+If the script cannot be ran, mark it as executable by pasting this command into terminal, drag the script in the window and press return
+```
+chmod +x 
+```
